@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/header.css">
+    <link rel="stylesheet" href="src/sections.css">
+    <link rel="stylesheet" href="/src/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="hero-section">
+        <nav class="navbar">
+            <div class="logo">Meu Logo</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Bem-vindo ao Meu Portfólio</h1>
+            <p>Criação de Interfaces Modernas e Intuitivas</p>
+            <a href="#projetos" class="cta-button">Ver Projetos</a>
+        </div>
+    </header>
+
+    <section id="projetos" class="projects-section">
+        <h2>Meus Projetos</h2>
+        <div class="projects-grid">
+
+            <div class="project-item">
+                <img src="projeto1.png" alt="Projeto 1">
+                <h3>Título do Projeto 1</h3>
+                <p>Descrição breve do projeto.</p>
+                <a href="#" class="project-link">Ver Mais</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="sobre" class="about-section">
+        <h2>Sobre Mim</h2>
+        <p>Texto sobre sua experiência e habilidades.</p>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <h2>Contato</h2>
+        <form action="#" method="post">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu Email" required>
+            <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit" class="contact-button">Enviar Mensagem</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
