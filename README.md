@@ -3,9 +3,9 @@
 
 
 <h1>
-  Projeto de Estilização
+  Projeto em desenvolvimento ...
 </h1>
 <h2>Dev: Cássio Estevão</h2>
-<h3>última atualização 13:58 08/08/2024</h3>
+<h3>última atualização 14:21 10/08/2024</h3>
 <div>
 </div>
