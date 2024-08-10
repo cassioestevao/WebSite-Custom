@@ -5,7 +5,6 @@
 <h1>
   Projeto em desenvolvimento ...
 </h1>
-<h2>Dev: Cássio Estevão</h2>
 <h3>última atualização 14:21 10/08/2024</h3>
 <div>
 </div>
