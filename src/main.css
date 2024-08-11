@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 body {
@@ -11,9 +13,9 @@ body {
 }
 
 header.hero-section {
-    background: linear-gradient(120deg, #2980b9, #2ecc71);
+    background: linear-gradient(120deg, #4a4d4e, #2e0227);
     color: white;
-    padding: 50px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -60,26 +62,31 @@ nav .logo {
 
 .cta-button {
     padding: 10px 20px;
-    background-color: #e74c3c;
+    background-color: purple;
     color: white;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 20px;
     transition: background-color 0.3s;
 }
 
 .cta-button:hover {
-    background-color: #c0392b;
+    background-color: rgb(73, 2, 73);
 }
 
 .projects-section {
-    padding: 60px 20px;
+    padding: 70px 20px;
     background-color: #f1f1f1;
 }
 
 .projects-section h2 {
     text-align: center;
     margin-bottom: 40px;
+    font-size: 3rem;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .projects-grid {
@@ -116,15 +123,19 @@ nav .logo {
 }
 
 .project-link {
-    color: #2980b9;
-    text-decoration: none;
+    color: black;
+    text-decoration: underline;
     font-weight: bold;
 }
 
 .project-item:hover {
     transform: scale(1.05);
+    
 }
-
+#sobre {
+    background: linear-gradient(120deg, #4a4d4e, #2e0227);
+    color: white;
+}
 .about-section, .contact-section {
     padding: 60px 20px;
 }
@@ -170,11 +181,4 @@ nav .logo {
 
 .contact-button:hover {
     background-color: #216a9b;
-}
-
-.footer {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
 }
