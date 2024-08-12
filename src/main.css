@@ -199,7 +199,7 @@ nav .logo {
     padding-right: 40px;
     quotes: "“" "”"; /* Aspas customizadas */
     margin: 20px 0; /* Espaçamento em volta do blockquote */
-    text-align: left;
+    text-align: justify;
 }
 
 .description blockquote::before {
