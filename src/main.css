@@ -86,14 +86,14 @@ nav .logo {
 
 .projects-section {
     padding: 70px 20px;
-    background-color: #f1f1f1;
+    background-image: url("/img/execpt/background/backgg.png");
 }
 
 .projects-section h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 3rem;
-    color: black;
+    color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -157,6 +157,9 @@ nav .logo {
 }
 .contact-section {
     padding: 60px 20px;
+    background-image: url(/img/execpt/background/backgg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .about-section {
     padding: 60px 20px;
@@ -231,7 +234,7 @@ nav .logo {
     text-align: center;
     margin-bottom: 40px;
     font-size: 3rem;
-    color: black;
+    color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -267,7 +270,7 @@ nav .logo {
 
 .contact-button {
     padding: 15px;
-    background-color: #2980b9;
+    background-color: #830F83;
     color: white;
     border: none;
     border-radius: 5px;
@@ -277,7 +280,7 @@ nav .logo {
 }
 
 .contact-button:hover {
-    background-color: #216a9b;
+    background-color: #830f836e;
 }
 .funcion-contato {
     display: flex;
