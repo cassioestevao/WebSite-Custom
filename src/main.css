@@ -223,11 +223,13 @@ nav .logo {
 }
 
 .contact-section .image-perfil img {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     margin: 0 auto;
     display: block;
     margin-bottom: 50px;
+    filter:drop-shadow(0 0 60px #830F83)
+
 }
 
 .contact-section h2 {
