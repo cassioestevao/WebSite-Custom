@@ -17,6 +17,7 @@ header.hero-section {
     color: white;
     padding: 20px 0;
     text-align: center;
+
 }
 
 nav.navbar {
@@ -27,8 +28,13 @@ nav.navbar {
 }
 
 nav .logo {
-    font-size: 1.8em;
+    font-size: 1em;
     font-weight: bold;
+
+    & img {
+      width: 100px;
+    }
+
 }
 
 .nav-links {
@@ -48,6 +54,10 @@ nav .logo {
 
 .hero-content {
     margin-top: 50px;
+
+    & img {
+        animation: logo-style ease-in-out infinite;
+    }
 }
 
 .hero-content h1 {
@@ -62,7 +72,7 @@ nav .logo {
 
 .cta-button {
     padding: 10px 20px;
-    background-color: purple;
+    background-color: rgb(168, 1, 168);
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -71,7 +81,7 @@ nav .logo {
 }
 
 .cta-button:hover {
-    background-color: rgb(73, 2, 73);
+    background-color: rgb(131, 15, 131);
 }
 
 .projects-section {
@@ -123,9 +133,18 @@ nav .logo {
 }
 
 .project-link {
-    color: black;
-    text-decoration: underline;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    width: 60px;
+    padding: 5px;
+    text-decoration: none;
     font-weight: bold;
+    text-align: center;
+    & i {
+        font-size: 20px;
+        align-items: center;
+    }
 }
 
 .project-item:hover {
@@ -136,14 +155,89 @@ nav .logo {
     background: linear-gradient(120deg, #4a4d4e, #2e0227);
     color: white;
 }
-.about-section, .contact-section {
+.contact-section {
     padding: 60px 20px;
 }
+.about-section {
+    padding: 60px 20px;
+    
+}
+.box-sobre {
+    display: flex;
+    align-items: center; /* Centraliza as imagens verticalmente */
+    justify-content: space-around; /* Espaço entre as imagens */
+}
 
-.about-section h2, .contact-section h2 {
+.box-sobre img {
+    width: 450px; /* Define a largura das imagens */
+    height: 450px; /* Define a altura das imagens */
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner sem distorcer */
+    margin: 0 10px; /* Espaçamento entre as imagens */
+}
+
+.about-section h2{ 
     text-align: center;
     margin-bottom: 40px;
+    font-size: 3rem;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
 }
+
+.description blockquote {
+    font-size: 1.5rem; /* Tamanho do texto */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic; /* Estilo itálico para o texto */
+    color: #ffffff; /* Cor do texto */
+    border-left: 5px solid #eff3f7; /* Barra lateral para destacar */
+    padding-left: 40px; /* Espaçamento à esquerda */
+    padding-right: 40px;
+    quotes: "“" "”"; /* Aspas customizadas */
+    margin: 20px 0; /* Espaçamento em volta do blockquote */
+    text-align: left;
+}
+
+.description blockquote::before {
+    content: open-quote; /* Adiciona a aspa de abertura */
+    font-size: 2rem; /* Tamanho maior para a aspa */
+    margin-right: 10px; /* Espaço entre a aspa e o texto */
+    color: #fdfdfd; /* Cor da aspa */
+}
+
+.description blockquote::after {
+    content: close-quote; /* Adiciona a aspa de fechamento */
+    font-size: 2rem; /* Tamanho maior para a aspa */
+    margin-left: 10px; /* Espaço entre o texto e a aspa */
+    color: #fdfdfd; /* Cor da aspa */
+}
+.contact-section .image-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-section .image-perfil img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 40px 4%;
+}
+
 
 .about-section p {
     max-width: 600px;
@@ -153,19 +247,22 @@ nav .logo {
     line-height: 1.8;
 }
 
-.contact-section form {
+.contact-section .funcion-contato form {
     max-width: 600px;
+    width: 300px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
 .contact-section input, .contact-section textarea {
     padding: 15px;
     border-radius: 5px;
     border: 1px solid #ddd;
-    font-size: 1em;
+    width: 300px;
+    font-size: 1.2em;
 }
 
 .contact-button {
@@ -182,3 +279,8 @@ nav .logo {
 .contact-button:hover {
     background-color: #216a9b;
 }
+.funcion-contato {
+    display: flex;
+    flex-direction: column;
+}
+
