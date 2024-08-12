@@ -87,6 +87,9 @@ nav .logo {
 .projects-section {
     padding: 70px 20px;
     background-image: url("/img/execpt/background/backgg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .projects-section h2 {
@@ -134,10 +137,11 @@ nav .logo {
 
 .project-link {
     color: white;
+    font-family: 'Times New Roman', Times, serif;
     background-color: black;
     border-radius: 20px;
     width: 60px;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     font-weight: bold;
     text-align: center;
