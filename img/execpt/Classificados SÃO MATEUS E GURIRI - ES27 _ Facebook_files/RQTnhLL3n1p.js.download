@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("isReceiverFetchSticker",["I64","LSIntEnum","MessagingAttachmentType"],(function(a,b,c,d,e,f,g){"use strict";var h,i;function a(a){var b=a.attachmentType;b=(h||(h=d("I64"))).equal(b,(i||(i=d("LSIntEnum"))).ofNumber(c("MessagingAttachmentType").STICKER));a=a.receiverFetchId;return b&&a!=null}g["default"]=a}),98);
